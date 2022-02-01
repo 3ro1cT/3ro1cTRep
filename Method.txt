@@ -1,0 +1,13 @@
+Request URL: http://151.80.70.42:3000/api/users
+Request Method: GET
+
+Request URL: http://151.80.70.42:3000/api/users
+Request Method: POST
+
+Request URL: http://151.80.70.42:3000/api/users/925
+Request Method: PUT
+
+Request URL: http://151.80.70.42:3000/api/users/925
+Request Method: DELETE
+
+can't find paths to reproduce the method PATCH

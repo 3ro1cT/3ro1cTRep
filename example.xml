@@ -1,0 +1,17 @@
+<users>
+	<chuvak>
+		<name>Vasya</name>
+		<age>25</age>
+		<job>QA</job>
+	</chuvak>
+	<chuvak>
+		<name>Petya</name>
+		<age>25</age>
+		<job>PHP-dev</job>
+	</chuvak>
+	<chuvak>
+		<name>Kolya</name>
+		<age>23</age>
+		<job>Prodavets</job>
+	</chuvak>
+</users>

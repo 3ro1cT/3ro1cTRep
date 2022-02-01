@@ -1,0 +1,8 @@
+Summary: user wants to upload an avatar for his profile on some website, but the "upload" button doesn't work.
+Description: 
+Steps to reproduce: Clicking button "upload"; 
+Expected result: Opens windows explorer ;
+Actual result: Button upload uncklicable.
+Severity: High
+Priority: 1
+Status

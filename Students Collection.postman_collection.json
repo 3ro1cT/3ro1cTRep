@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "0ec11fd6-918b-4542-9503-8ab5c40afdb0",
+		"name": "Students Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateUser",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Saving Info\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"iduser\", jsonData.id);\r",
+							"    pm.collectionVariables.set(\"nameuser\", jsonData.name);\r",
+							"    pm.collectionVariables.set(\"phoneuser\", jsonData.phone);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "string"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"{{$guid}}\",\r\n    \"phone\": \"{{$timestamp}}\"\r\n}"
+				},
+				"url": {
+					"raw": "http://151.80.70.42:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"151",
+						"80",
+						"70",
+						"42"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUsers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Your test name\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"\r",
+							"\r",
+							"    var expID = pm.collectionVariables.get(\"iduser\");\r",
+							"    var exName = pm.collectionVariables.get(\"nameuser\");\r",
+							"    var expPhone = pm.collectionVariables.get(\"phoneuser\");\r",
+							"\r",
+							"    var usercreated = false;\r",
+							"\r",
+							"    for (var i = 0; i < jsonData.length; i = i + 1){\r",
+							"    if (jsonData[i].id == expID) {\r",
+							"        usercreated = true\r",
+							"        console.log(jsonData[i]);\r",
+							"        pm.expect(jsonData[i].name).to.eql(exName);\r",
+							"        pm.expect(jsonData[i].phone).to.eql(expPhone);\r",
+							"    }\r",
+							"    }\r",
+							"    pm.expect(usercreated).to.eql(true);\r",
+							"    \r",
+							"    \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://151.80.70.42:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"151",
+						"80",
+						"70",
+						"42"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditUser",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 204\", function () {\r",
+							"    pm.response.to.have.status(204);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": {{iduser}}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://151.80.70.42:3000/api/users/{{iduser}}",
+					"protocol": "http",
+					"host": [
+						"151",
+						"80",
+						"70",
+						"42"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"{{iduser}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.globals.set(\"userid\", \"userIdValue\");"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 204\", function () {\r",
+							"    pm.response.to.have.status(204);\r",
+							"});\r",
+							"pm.globals.unset(\"userid\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://151.80.70.42:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"151",
+						"80",
+						"70",
+						"42"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Your test name\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"\r",
+							"\r",
+							"    var expID = pm.collectionVariables.get(\"iduser\");\r",
+							"    var exName = pm.collectionVariables.get(\"nameuser\");\r",
+							"    var expPhone = pm.collectionVariables.get(\"phoneuser\");\r",
+							"\r",
+							"    var usercreated = true;\r",
+							"\r",
+							"    for (var i = 0; i < jsonData.length; i = i + 1){\r",
+							"    if (jsonData[i].id == expID) {\r",
+							"        usercreated = false\r",
+							"        console.log(jsonData[i]);\r",
+							"    }\r",
+							"    }\r",
+							"    pm.expect(usercreated).to.eql(true);\r",
+							"    \r",
+							"    \r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://151.80.70.42:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"151",
+						"80",
+						"70",
+						"42"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "iduser",
+			"value": ""
+		},
+		{
+			"key": "nameuser",
+			"value": ""
+		},
+		{
+			"key": "phoneuser",
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{"Phone": [
+	{
+		"Vendor": "Xiaomi",
+		"model": "Mi" 6,
+		"color": "black",
+		"type": "new" 
+	},
+	{
+		"Vendor": "Apple",
+		"model": "XS Max",
+		"color": "White",
+		"type": "refurbished"	
+	},
+	{
+		"Vendor": "Samsung",
+		"model": "Note" 9,
+		"color": "Black",
+		"type": "new"
+	}
+]}	

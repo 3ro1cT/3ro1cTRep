@@ -1,0 +1,20 @@
+<accessory>
+	<Headphones>
+		<Vendor>Apple</Vendor>
+		<model>Airpods Pro</model>
+		<color>white</color>
+		<type>wireless</type>
+	</Headphones>
+	<Headphones>
+		<Vendor>Xiaomi</Vendor>
+		<model>Pistone</model>
+		<color>black</color>
+		<type>wired</type>
+	</Headphones>
+	<Headphones>
+		<Vendor>Huawei</Vendor>
+		<model>Freebuds 4</model>
+		<color>black</color>
+		<type>wireless</type>
+	</Headphones>
+</accessory>

@@ -1,0 +1,20 @@
+<Device>
+	<Laptop>
+		<Vendor>Lenovo</Vendor>
+		<model>Legion</model>
+		<color>black</color>
+		<price>1850</price>
+	</Laptop>
+	<Laptop>
+		<Vendor>Asus</Vendor>
+		<model>Rog</model>
+		<color>silver</color>
+		<price>2160</price>
+	</Laptop>
+	<Laptop>
+		<Vendor>DELL</Vendor>
+		<model>XPS</model>
+		<color>red</color>
+		<price>1950</price>
+	</Laptop>
+</Device>

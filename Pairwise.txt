@@ -1,0 +1,10 @@
+Name: Asus,	Dell, HP, Lenovo, MSI
+Price: 800, 1000, 1700, 2300
+Diagonal: 11, 13, 15, 17
+RAM: 8, 16, 32
+HDD: 500, 1000
+SSD: true, false
+OS: DOS, Windows, Linux
+Screen type: Amoled, IPS, TN
+AMD: true, false
+Intel: true, false

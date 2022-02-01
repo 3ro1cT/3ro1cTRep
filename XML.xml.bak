@@ -1,0 +1,83 @@
+<Device>
+	<Phone>
+		<Vendor>Xiaomi</Vendor>
+		<model>Mi 6</model>
+		<color>black</color>
+		<type>new</type>
+	</Phone>
+	<Phone>
+		<Vendor>Apple</Vendor>
+		<model>XS MAX</model>
+		<color>white</color>
+		<type>refurbished</type>
+	</Phone>
+	<Phone>
+		<Vendor>Samsung</Vendor>
+		<model>Note 9</model>
+		<color>black</color>
+		<type>new</type>
+	</Phone>
+</Device>
+
+<Car>
+	<vehicle>
+		<brand>Ford</brand>
+		<year>1986</year>
+		<color>black</color>
+		<engine>V6</engine>
+	</vehicle>
+	<vehicle>
+		<brand>Chevrolet</brand>
+		<year>1970</year>
+		<color>yellow</color>
+		<engine>V8</engine>
+	</vehicle>
+	<vehicle>
+		<brand>Pontiac</brand>
+		<year>1956</year>
+		<color>red</color>
+		<engine>V12</engine>
+	</vehicle>
+</Car>
+
+<accessory>
+	<Headphones>
+		<Vendor>Apple</Vendor>
+		<model>Airpods Pro</model>
+		<color>white</color>
+		<type>wireless</type>
+	</Headphones>
+	<Headphones>
+		<Vendor>Xiaomi</Vendor>
+		<model>Pistone</model>
+		<color>black</color>
+		<type>wired</type>
+	</Headphones>
+	<Headphones>
+		<Vendor>Huawei</Vendor>
+		<model>Freebuds 4</model>
+		<color>black</color>
+		<type>wireless</type>
+	</Headphones>
+</accessory>
+
+<Device>
+	<Laptop>
+		<Vendor>Lenovo</Vendor>
+		<model>Legion</model>
+		<color>black</color>
+		<price>1850</price>
+	</Laptop>
+	<Laptop>
+		<Vendor>Asus</Vendor>
+		<model>Rog</model>
+		<color>silver</color>
+		<price>2160</price>
+	</Laptop>
+	<Laptop>
+		<Vendor>DELL</Vendor>
+		<model>XPS</model>
+		<color>red</color>
+		<price>1950</price>
+	</Laptop>
+</Device>

@@ -1,0 +1,24 @@
+Vendor, model, capacity, cell
+Samsung, EVO 870, 256, QLC
+Kingston, Fury, 128, TLC
+ADATA, Spectrix, 4 TB, QLC
+
+Car, Year, Engine, Color
+Ford, 1986, v6, Black
+Chevrolet, 1970, v8, Yellow
+Pontiac, 1956, v12, Red
+
+Vendor, model, type, color
+Apple, Airpods Pro, wireless, white
+Xiaomi, Pistone, wired, black
+Huawei, Freebuds 4, wireless, black
+
+Vendor, model, price, color
+Lenovo, Legion, 1850, black
+Asus, Rog, 2160, silver
+DELL, XPS, 1950, red
+
+Vendor, model, color, type
+Xiaomi, Mi 6, black, new
+Apple, XS MAX, white, refurbished
+Samsung, Note 9, black, new

@@ -1,0 +1,20 @@
+{"SSD": [
+	{
+		"Vendor": "Samsung",
+		"model": "EVO" 870,
+		"capacity": 256,
+		"cell": "QLC" 
+	},
+	{
+		"Vendor": "Kingston",
+		"model": "Fury",
+		"capacity": 128,
+		"cell": "TLC"	
+	},
+	{
+		"Vendor": "ADATA",
+		"model": "Spectrix",
+		"capacity": 4 "TB",
+		"cell": "QLC"
+	}
+]}	

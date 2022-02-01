@@ -1,0 +1,21 @@
+<Spare part>
+	<SSD>
+		<Vendor>Samsung</Vendor>
+		<model>EVO 870</model>
+		<capacity>256</capacity>
+		<cell>QLC</cell>
+	</SSD>
+	<SSD>
+		<Vendor>Kingston</Vendor>
+		<model>Fury</model>
+		<capacity>128</capacity>
+		<cell>TLC</cell>
+	</SSD>
+	<SSD>
+		<Vendor>ADATA</Vendor>
+		<model>Spectrix</model>
+		<capacity>4 TB</capacity>
+		<cell>QLC</cell>
+	</SSD>
+</Spare part>
+

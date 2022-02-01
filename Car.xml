@@ -1,0 +1,20 @@
+<Car>
+	<vehicle>
+		<brand>Ford</brand>
+		<year>1986</year>
+		<color>black</color>
+		<engine>V6</engine>
+	</vehicle>
+	<vehicle>
+		<brand>Chevrolet</brand>
+		<year>1970</year>
+		<color>yellow</color>
+		<engine>V8</engine>
+	</vehicle>
+	<vehicle>
+		<brand>Pontiac</brand>
+		<year>1956</year>
+		<color>red</color>
+		<engine>V12</engine>
+	</vehicle>
+</Car>

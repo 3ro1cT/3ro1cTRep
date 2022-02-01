@@ -1,0 +1,20 @@
+{"Headphones": [
+	{
+		"Vendor": "Apple",
+		"model": "Airpods Pro",
+		"type": "wireless",
+		"color": "white" 
+	},
+	{
+		"Vendor": "Xiaomi",
+		"model": "Pistone",
+		"type": "wired",
+		"color": "black"	
+	},
+	{
+		"Vendor": "Huawei",
+		"model": "Freebuds" 4,
+		"type": "wireless",
+		"color": "black"
+	}
+]}	

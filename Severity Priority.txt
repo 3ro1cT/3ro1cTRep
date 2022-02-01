@@ -1,0 +1,8 @@
+Summary: User wants to create a report on the error found in the website, clicks on the button "create a error report" but redirecting on the "page not found"
+Description: 
+Steps to reproduce: Clicking button "create a error report"; 
+Expected result: Redirecting to the page with report creation form;
+Actual result: "Page not found".
+Severity: Minor
+Priority: 4
+Status

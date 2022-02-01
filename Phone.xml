@@ -1,0 +1,20 @@
+<Device>
+	<Phone>
+		<Vendor>Xiaomi</Vendor>
+		<model>Mi 6</model>
+		<color>black</color>
+		<type>new</type>
+	</Phone>
+	<Phone>
+		<Vendor>Apple</Vendor>
+		<model>XS MAX</model>
+		<color>white</color>
+		<type>refurbished</type>
+	</Phone>
+	<Phone>
+		<Vendor>Samsung</Vendor>
+		<model>Note 9</model>
+		<color>black</color>
+		<type>new</type>
+	</Phone>
+</Device>

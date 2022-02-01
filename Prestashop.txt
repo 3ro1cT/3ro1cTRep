@@ -1,0 +1,11 @@
+Translation:
+When choosing (russian/ukrainian), the following are not translated:
+Advertising plate in the header of the site, categories (women, dresses, t-shirts), banners "3 days sale" and "Only online summer collection",
+names of goods, banners "top trends", "mens coats and jackets", "womens coats and jackets", descriptions of goods,
+when choosing the Ukrainian language, sorting by price is not correct.
+Usage:
+There is no category "mens", in the "womens" section the banners "designer collection" and "shoe collection" are not clickable,
+when switching the display of products from "table" to "list", the site grid moves down. When you click on the advertising banners "3 days" and "online only" redirect
+to the page https://www.prestashop.com/en which has no products. When adding an item to the cart, there is no information about adding "Cart: product (empty)
+but the product is there. items from the cart are not deleted correctly. The preview of the item in the cart is stretched. There is no size chart. When you go to the dress tab
+in the filters the site grid slides down, not adapted for mobile devices.

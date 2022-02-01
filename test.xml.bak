@@ -1,0 +1,106 @@
+<HomeWork>
+<Device>
+	<Phone>
+		<Vendor>Xiaomi</Vendor>
+		<model>Mi6</model>
+		<color>black</color>
+		<type>new</type>
+	</Phone>
+	<Phone>
+		<Vendor>Apple</Vendor>
+		<model>XSMAX</model>
+		<color>white</color>
+		<type>refurbished</type>
+	</Phone>
+	<Phone>
+		<Vendor>Samsung</Vendor>
+		<model>Note9</model>
+		<color>black</color>
+		<type>new</type>
+	</Phone>
+</Device>
+
+<Car>
+	<vehicle>
+		<brand>Ford</brand>
+		<year>1986</year>
+		<color>black</color>
+		<engine>V6</engine>
+	</vehicle>
+	<vehicle>
+		<brand>Chevrolet</brand>
+		<year>1970</year>
+		<color>yellow</color>
+		<engine>V8</engine>
+	</vehicle>
+	<vehicle>
+		<brand>Pontiac</brand>
+		<year>1956</year>
+		<color>red</color>
+		<engine>V12</engine>
+	</vehicle>
+</Car>
+
+<accessory>
+	<Headphones>
+		<Vendor>Apple</Vendor>
+		<model>Airpods Pro</model>
+		<color>white</color>
+		<type>wireless</type>
+	</Headphones>
+	<Headphones>
+		<Vendor>Xiaomi</Vendor>
+		<model>Pistone</model>
+		<color>black</color>
+		<type>wired</type>
+	</Headphones>
+	<Headphones>
+		<Vendor>Huawei</Vendor>
+		<model>Freebuds 4</model>
+		<color>black</color>
+		<type>wireless</type>
+	</Headphones>
+</accessory>
+
+<Device>
+	<Laptop>
+		<Vendor>Lenovo</Vendor>
+		<model>Legion</model>
+		<color>black</color>
+		<price>1850</price>
+	</Laptop>
+	<Laptop>
+		<Vendor>Asus</Vendor>
+		<model>Rog</model>
+		<color>silver</color>
+		<price>2160</price>
+	</Laptop>
+	<Laptop>
+		<Vendor>DELL</Vendor>
+		<model>XPS</model>
+		<color>red</color>
+		<price>1950</price>
+	</Laptop>
+</Device>
+
+<Spare part>
+	<SSD>
+		<Vendor>Samsung</Vendor>
+		<model>EVO 870</model>
+		<capacity>256</capacity>
+		<cell>QLC</cell>
+	</SSD>
+	<SSD>
+		<Vendor>Kingston</Vendor>
+		<model>Fury</model>
+		<capacity>128</capacity>
+		<cell>TLC</cell>
+	</SSD>
+	<SSD>
+		<Vendor>ADATA</Vendor>
+		<model>Spectrix</model>
+		<capacity>4 TB</capacity>
+		<cell>QLC</cell>
+	</SSD>
+</Spare part>
+</HomeWork>

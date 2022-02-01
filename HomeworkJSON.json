@@ -1,0 +1,110 @@
+{"Homework": [
+{"SSD": [
+	{
+		"Vendor": "Samsung",
+		"model": "EVO870",
+		"capacity": 256,
+		"cell": "QLC" 
+	},
+	{
+		"Vendor": "Kingston",
+		"model": "Fury",
+		"capacity": 128,
+		"cell": "TLC"	
+	},
+	{
+		"Vendor": "ADATA",
+		"model": "Spectrix",
+		"capacity": "4TB",
+		"cell": "QLC"
+	}
+]},
+	
+	
+{"Phone": [
+	{
+		"Vendor": "Xiaomi",
+		"model": "Mi6",
+		"color": "black",
+		"type": "new" 
+	},
+	{
+		"Vendor": "Apple",
+		"model": "XS Max",
+		"color": "White",
+		"type": "refurbished"	
+	},
+	{
+		"Vendor": "Samsung",
+		"model": "Note9",
+		"color": "Black",
+		"type": "new"
+	}
+]},
+
+{"Laptop": [
+	{
+		"Vendor": "Lenovo",
+		"model": "Legion",
+		"price": 1850,
+		"color": "black" 
+	},
+	{
+		"Vendor": "Asus",
+		"model": "Rog",
+		"price": 2160,
+		"color": "silver"	
+	},
+	{
+		"Vendor": "DELL",
+		"model": "XPS",
+		"price": 1950,
+		"color": "red"
+	}
+]},
+	
+
+{"Headphones": [
+	{
+		"Vendor": "Apple",
+		"model": "Airpods Pro",
+		"type": "wireless",
+		"color": "white" 
+	},
+	{
+		"Vendor": "Xiaomi",
+		"model": "Pistone",
+		"type": "wired",
+		"color": "black"	
+	},
+	{
+		"Vendor": "Huawei",
+		"model": "Freebuds4",
+		"type": "wireless",
+		"color": "black"
+	}
+]},
+	
+
+{"car": [
+	{
+		"brand": "Ford",
+		"year": 1986,
+		"color": "black",
+		"engine": "v6",
+	},
+	{
+		"brand": "Chevrole",
+		"year": 1970,
+		"color": "yellow",
+		"engine": "v8",	
+	},
+	{
+		"brand": "Pontiac",
+		"year": 1956,
+		"color": "red",
+		"engine": "v12",
+	}
+]}
+]}
+
